@@ -12,6 +12,46 @@ body {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  background: rgb(235, 255, 250) !important;
+  background: rgb(127, 224, 200) !important;
 }
 
+.section-center{
+  width: 900px;
+  background: rgb(224, 224, 224) ;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.section-center h4{
+  font-size: 25px;
+  padding: 30px 0;
+}
+
+.section-center input{
+  border: 1px solid rgb(235, 235, 235);
+  padding: 7px;
+  margin-right: 10px;
+}
+
+.section-center button{
+  border: none;
+  background: rgb(126, 9, 141);
+  margin-right: 20px;
+  width: 100px;
+  color: #fff;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 20px;
+  transition: color, background 2s;
+
+}
+
+.section-center button:hover{
+  color:#000;
+  background: rgb(236, 109, 236) ;
+}
+
+
+.section-center p{
+  margin-top: 40px;
+}
